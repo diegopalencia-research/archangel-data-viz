@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "project": "Didacus Sacred Neuroart — Data & Visualization Layer",
+    "source_document": "Didacus Sacred Neuroart: A Theoretical Framework for a Contemporary Canon of Archangelic Iconography (v1.0, September 2026)",
+    "epistemic_codes": {
+      "H": "Historically / textually attested (present in the primary source itself)",
+      "R": "Reception-history / established later iconographic convention",
+      "D": "Original Didacus artistic invention or interpretation"
+    },
+    "confidence_scale_note": "evidence_confidence labels (High/Moderate/Low) are quoted or closely paraphrased from the source paper. The numeric encoding used for charts (High=3, Moderate=2, Low=1) is a derived scoring convention created for this analysis, not a value stated in the source."
+  },
+  "archangels": [
+    {
+      "id": 1,
+      "name": "Michael",
+      "name_variants": ["Mikha'el (Hebrew)", "Michael (Greek)"],
+      "didacus_theme": ["Protection", "Courage", "Justice"],
+      "theme_status": {"Protection": "H", "Courage": "R", "Justice": "D"},
+      "historical_role": "Chief/great prince associated with protection of Daniel's people; placed in an eschatological setting of crisis and deliverance; called 'the archangel' disputing with the devil; fights the dragon; one of the seven holy angels in 1 Enoch 20, assigned to the best part of humankind and to chaos.",
+      "primary_sources": ["Daniel 10:13", "Daniel 10:21", "Daniel 12:1", "Jude 9", "Revelation 12:7-9", "1 Enoch 20:5"],
+      "attributes": [
+        {"name": "Armour", "status": "R", "note": "development of visual tradition, not a literal description in Daniel or 1 Enoch"},
+        {"name": "Sword", "status": "R", "note": "represents decisive boundary-setting in Didacus reading"},
+        {"name": "Shield", "status": "R", "note": "clearest visual carrier of 'protection' in the Didacus redesign"},
+        {"name": "Scales (psychostasis)", "status": "R", "note": "later medieval weigher-of-souls tradition"},
+        {"name": "Defeated dragon", "status": "R", "note": "developed from Revelation 12 narrative into a static attribute"},
+        {"name": "Deep blue", "status": "D", "note": "Didacus canonical colour code"},
+        {"name": "Vertical axis / frontal stance", "status": "D", "note": "Didacus compositional grammar (R1/R2)"}
+      ],
+      "colour": {"name": "Deep blue", "status": "D"},
+      "geometry_metaphor": "Boundary",
+      "evidence_confidence": {
+        "textual_identity_and_role": "High",
+        "warrior_iconography": "High-to-moderate",
+        "single_canonical_appearance": "None documented"
+      },
+      "methodological_caution": "Avoid saying that the sword or shield is explicitly prescribed by Daniel or 1 Enoch. Avoid claiming that viewing the image activates a specific 'protection circuit.'",
+      "contemplative_prompts": [
+        "What deserves protection?",
+        "What boundary requires courage?",
+        "Where is decisive action necessary?"
+      ],
+      "references": ["nickelsburg2004"]
+    },
+    {
+      "id": 2,
+      "name": "Gabriel",
+      "name_variants": ["Gavri'el (Hebrew)", "Gabriel (Greek)"],
+      "didacus_theme": ["Revelation", "Communication", "Silence"],
+      "theme_status": {"Revelation": "H", "Communication": "H", "Silence": "D"},
+      "historical_role": "Helps Daniel understand a vision, arriving in 'swift flight'; appears in Luke's annunciation narratives announcing major births; in 1 Enoch 20 assigned to Paradise, the serpents, and the cherubim.",
+      "primary_sources": ["Daniel 8:16", "Daniel 9:21", "Luke 1:19", "Luke 1:26", "1 Enoch 20:7"],
+      "attributes": [
+        {"name": "Staff / sceptre", "status": "R", "note": "characteristic of Eastern (Byzantine) iconography"},
+        {"name": "White lily", "status": "R", "note": "strongly established in Western Annunciation imagery, later medieval/Renaissance"},
+        {"name": "Scroll", "status": "D", "note": "Didacus addition referencing authority, message and interpretation together"},
+        {"name": "Green and cream palette", "status": "D", "note": "retains manuscript's growth/threshold language"},
+        {"name": "Flowing wings", "status": "D", "note": "used to distinguish Gabriel's geometry from Michael's harder axial form"}
+      ],
+      "colour": {"name": "Green and cream", "status": "D"},
+      "geometry_metaphor": "Message",
+      "evidence_confidence": {
+        "messenger_vision_interpretation": "High",
+        "byzantine_staff_tradition": "High",
+        "lily_as_cross_tradition_attribute": "Moderate"
+      },
+      "methodological_caution": "Do not state that Gabriel is historically defined by the lily in every tradition. 'Silence' is a Didacus poetic interpretation, not a primary-source title.",
+      "contemplative_prompts": [
+        "What message is waiting to be received or given?",
+        "What needs to be spoken plainly?",
+        "What is the difference between information and revelation?"
+      ],
+      "references": ["james2017", "nickelsburg2004"]
+    },
+    {
+      "id": 3,
+      "name": "Raphael",
+      "name_variants": ["Rafa'el (Hebrew)", "Raphael (Greek)", "Rafael (Spanish)"],
+      "didacus_theme": ["Healing", "Equilibrium", "Life"],
+      "theme_status": {"Healing": "H", "Equilibrium": "D", "Life": "D"},
+      "historical_role": "Accompanies Tobias and assists with restoring Tobit's sight in the Book of Tobit; identifies himself as one of the seven holy angels who stand before God; in 1 Enoch 20 assigned to the spirits of human beings.",
+      "primary_sources": ["Tobit 3:17", "Tobit 5-12", "Tobit 12:15", "1 Enoch 20:3"],
+      "attributes": [
+        {"name": "Fish", "status": "H", "note": "directly rooted in Tobit's narrative — the fish's organs are part of the healing events"},
+        {"name": "Healing vessel", "status": "R", "note": "later iconographic elaboration"},
+        {"name": "Pilgrim staff", "status": "R", "note": "later iconographic elaboration"},
+        {"name": "Caduceus / medical symbolism", "status": "R", "note": "explicitly flagged in the paper as NOT an ancient Raphael-specific attribute; earlier manuscript claim should be corrected"},
+        {"name": "Green/blue palette", "status": "D", "note": "Didacus canonical colour code"},
+        {"name": "Vertical star sequence (anatomical metaphor)", "status": "D", "note": "explicitly an original Didacus device, not a traditional Raphael symbol"}
+      ],
+      "colour": {"name": "Green/blue", "status": "D"},
+      "geometry_metaphor": "Restoration",
+      "evidence_confidence": {
+        "healing_and_fish_motif": "High",
+        "identity_in_tobit": "High",
+        "broader_medical_vocabulary": "Moderate"
+      },
+      "methodological_caution": "The manuscript's earlier caduceus statement should be removed or rewritten; the caduceus is not a historically specific Raphael attribute.",
+      "contemplative_prompts": [
+        "What in life needs repair?",
+        "Where has balance been lost?",
+        "What active practice would restoration require?"
+      ],
+      "references": ["nickelsburg2004"]
+    },
+    {
+      "id": 4,
+      "name": "Uriel",
+      "name_variants": ["Uri'el (Hebrew)"],
+      "didacus_theme": ["Illumination", "Wisdom", "Understanding"],
+      "theme_status": {"Illumination": "D", "Wisdom": "R", "Understanding": "R"},
+      "historical_role": "One of the seven named angels in 1 Enoch 20, assigned over the world and Tartarus; becomes associated with knowledge and interpretation in later Jewish and Christian reception; outside the usual three archangels named in most Western biblical canons.",
+      "primary_sources": ["1 Enoch 20:2", "2 Esdras/4 Ezra (in some textual traditions)"],
+      "attributes": [
+        {"name": "Book", "status": "R", "note": "later art/esoteric/devotional tradition; not one universally authoritative costume"},
+        {"name": "Scroll", "status": "R", "note": "reception-history possibility"},
+        {"name": "Flame", "status": "R", "note": "reception-history possibility"},
+        {"name": "Sword", "status": "R", "note": "reception-history possibility"},
+        {"name": "Globe", "status": "R", "note": "reception-history possibility"},
+        {"name": "Open book (as used)", "status": "D", "note": "Didacus semantic bridge from later knowledge traditions to the illumination theme"},
+        {"name": "Solar / golden field", "status": "D", "note": "Didacus canonical colour code"},
+        {"name": "Globe/fire geometry", "status": "D", "note": "references 1 Enoch jurisdiction over the world and Tartarus"}
+      ],
+      "colour": {"name": "Solar / golden", "status": "D"},
+      "geometry_metaphor": "Clarity",
+      "evidence_confidence": {
+        "textual_identity_and_enochic_role": "Moderate",
+        "any_specific_visual_attribute": "Moderate-to-low"
+      },
+      "methodological_caution": "Do not present the burning book or a flame-tipped staff as historically prescribed attributes of Uriel; they are contemporary iconographic synthesis.",
+      "contemplative_prompts": [
+        "What have I not allowed myself to understand?",
+        "Where do I prefer comfort to clarity?",
+        "What changes when understanding becomes action?"
+      ],
+      "references": ["nickelsburg2004"]
+    },
+    {
+      "id": 5,
+      "name": "Raguel",
+      "name_variants": ["Raguel", "Reuel (variant tradition)"],
+      "didacus_theme": ["Harmony", "Justice", "Right Relationship"],
+      "theme_status": {"Harmony": "D", "Justice": "D", "Right Relationship": "D"},
+      "historical_role": "One of the seven angels in 1 Enoch 20, assigned to the world of the luminaries with a jurisdiction involving vengeance or judgement — an astronomical and judicial role rather than a relational one.",
+      "primary_sources": ["1 Enoch 20:4"],
+      "attributes": [
+        {"name": "Scales", "status": "D", "note": "explicitly NOT a historical Raguel-specific attribute; a Didacus visual analogy for fairness and balance"},
+        {"name": "Celestial motifs / star field", "status": "R", "note": "preserves the Enochic association with the luminaries"},
+        {"name": "Blue-violet palette", "status": "D", "note": "Didacus canonical colour code"},
+        {"name": "Balanced masses on vertical axis", "status": "D", "note": "geometry performs the proposed archetype"}
+      ],
+      "colour": {"name": "Blue-violet", "status": "D"},
+      "geometry_metaphor": "Balance",
+      "evidence_confidence": {
+        "enoch_identity_and_luminary_judgement_role": "High",
+        "fixed_traditional_iconography": "Low"
+      },
+      "methodological_caution": "This is the figure where the book must state most explicitly that the visual program is a contemporary reconstruction; 'harmony' and 'right relationship' are Didacus concepts, not quotations from 1 Enoch.",
+      "contemplative_prompts": [
+        "Which relationship is out of balance?",
+        "Where is fairness required?",
+        "What would right relationship look like concretely?"
+      ],
+      "references": ["nickelsburg2004"]
+    },
+    {
+      "id": 6,
+      "name": "Sariel / Saraqael",
+      "name_variants": ["Saraqâêl", "Sariel", "corrects earlier manuscript's 'Dariel' (error)"],
+      "didacus_theme": ["Discernment", "Wisdom", "Watchfulness"],
+      "theme_status": {"Discernment": "H", "Wisdom": "D", "Watchfulness": "H"},
+      "historical_role": "Named as one of the holy angels in 1 Enoch 20 and assigned to spirits who sin in the spirit — connected with moral or spiritual transgression and oversight.",
+      "primary_sources": ["1 Enoch 20:6"],
+      "attributes": [
+        {"name": "Scroll / book", "status": "D", "note": "iconographic record is sparse and heterogeneous; object vocabulary intentionally restrained"},
+        {"name": "Star-tipped staff", "status": "D", "note": "no established visual type to draw on"},
+        {"name": "Cool teal tones", "status": "D", "note": "Didacus canonical colour code"},
+        {"name": "Vigilant frontal gaze", "status": "D", "note": "reflects the Enochic assignment to spirits who sin"}
+      ],
+      "colour": {"name": "Cool teal", "status": "D"},
+      "geometry_metaphor": "Awareness",
+      "evidence_confidence": {
+        "textual_identity": "Moderate",
+        "established_visual_iconography": "Low",
+        "need_to_label_as_reconstruction": "High"
+      },
+      "methodological_caution": "Use the spelling Sariel (Saraqael/Saraqâêl) consistently and explain variant forms once; do not invent a medieval 'standard icon' where none can be established.",
+      "contemplative_prompts": [
+        "What do I know but fail to discern?",
+        "Where do I rationalise what needs examination?",
+        "What does watchfulness look like without fear?"
+      ],
+      "references": ["nickelsburg2004"]
+    },
+    {
+      "id": 7,
+      "name": "Remiel",
+      "name_variants": ["Remiel", "Ramiel", "Jeremiel (later traditions — identity not fully stable across corpora)"],
+      "didacus_theme": ["Hope", "Renewal", "Transition"],
+      "theme_status": {"Hope": "D", "Renewal": "D", "Transition": "H"},
+      "historical_role": "Seventh angel in 1 Enoch 20, assigned to 'those who rise,' commonly read in relation to resurrection. Later traditions use related names such as Jeremiel for figures associated with visions, souls, or eschatological reflection, but these identities should not be uncritically collapsed into one continuous personage.",
+      "primary_sources": ["1 Enoch 20:8", "later Jewish/Christian apocryphal traditions under related names"],
+      "attributes": [
+        {"name": "Radiant orb", "status": "D", "note": "Didacus visual invention"},
+        {"name": "Dawn-like violet/gold palette", "status": "D", "note": "Didacus canonical colour code"},
+        {"name": "Layered vertical composition", "status": "D", "note": "Didacus compositional grammar"},
+        {"name": "Luminous rising path", "status": "D", "note": "Didacus interpretation of 'those who rise'"},
+        {"name": "Open hand", "status": "D", "note": "emphasises hope as possibility rather than certainty"}
+      ],
+      "colour": {"name": "Dawn violet/gold", "status": "D"},
+      "geometry_metaphor": "Threshold",
+      "evidence_confidence": {
+        "enochic_textual_role": "Moderate",
+        "continuity_with_jeremiel_traditions": "Moderate-to-low",
+        "fixed_historical_iconography": "Low"
+      },
+      "methodological_caution": "Do not claim that 'Jeremiel' is simply another unproblematic spelling of Remiel across all sources; preserve the distinction between related names and traditions.",
+      "contemplative_prompts": [
+        "What am I in the middle of leaving behind?",
+        "What do I hope for without certainty?",
+        "What threshold am I actually crossing?"
+      ],
+      "references": ["nickelsburg2004"]
+    }
+  ],
+  "bibliography": [
+    {"key": "becker2019", "authors": "Becker, D. V., & Neuberg, S. L.", "year": 2019, "title": "Archetypes Reconsidered as Emergent Outcomes of Cognitive Complexity and Evolved Motivational Systems", "venue": "Psychological Inquiry, 30(2), 59-75", "doi": "10.1080/1047840X.2019.1614795"},
+    {"key": "bies2016", "authors": "Bies, A. J., Blanc-Goldhammer, D. R., Boydston, C. R., Taylor, R. P., & Sereno, M. E.", "year": 2016, "title": "Aesthetic Responses to Exact Fractals Driven by Physical Complexity", "venue": "Frontiers in Human Neuroscience, 10, 210", "doi": "10.3389/fnhum.2016.00210"},
+    {"key": "berner2007", "authors": "Berner, C.", "year": 2007, "title": "The Four (or Seven) Archangels in the First Book of Enoch and Early Jewish Writings of the Second Temple Period", "venue": "Deuterocanonical and Cognate Literature Yearbook, 2007, 395-412", "doi": null},
+    {"key": "iwasaki2018", "authors": "Iwasaki, M., Noguchi, Y., & Kakigi, R.", "year": 2018, "title": "Two-Stage Processing of Aesthetic Information in the Human Brain Revealed by Neural Adaptation Paradigm", "venue": "Brain Topography, 31(6), 1001-1013", "doi": "10.1007/s10548-018-0654-7"},
+    {"key": "james2017", "authors": "James, L.", "year": 2017, "title": "Matters of Materiality in Byzantium. The Archangel Gabriel in Hagia Sophia, Constantinople", "venue": "Konsthistorisk tidskrift/Journal of Art History, 86(3), 145-157", "doi": "10.1080/00233609.2017.1330279"},
+    {"key": "lang2020", "authors": "Lang, J., Stamatopoulou, D., & Cupchik, G. C.", "year": 2020, "title": "A qualitative inquiry into the experience of sacred art among Eastern and Western Christians in Canada", "venue": "Archive for the Psychology of Religion, 42(3), 317-334", "doi": "10.1177/0084672420933357"},
+    {"key": "lymberopoulou2018", "authors": "Lymberopoulou, A.", "year": 2018, "title": "Sight and the Byzantine icon", "venue": "Body and Religion, 2(1), 46-67", "doi": "10.1558/bar.36484"},
+    {"key": "makin2023", "authors": "Makin, A. D. J., Roccato, M., Karakashevska, E., Tyson-Carr, J., & Bertamini, M.", "year": 2023, "title": "Symmetry Perception and Psychedelic Experience", "venue": "Symmetry, 15, 1340", "doi": null},
+    {"key": "mastandrea2019", "authors": "Mastandrea, S., Fagioli, S., & Biasi, V.", "year": 2019, "title": "Art and Psychological Well-Being: Linking the Brain to the Aesthetic Emotion", "venue": "Frontiers in Psychology, 10, 739", "doi": "10.3389/fpsyg.2019.00739"},
+    {"key": "mohr2018", "authors": "Mohr, C., Jonauskaitė, D., Dan-Glauser, E. S., Uusküla, M., & Dael, N.", "year": 2018, "title": "Unifying research on colour and emotion: Time for a cross-cultural survey on emotion associations to colour terms", "venue": "Progress in Colour Studies: Cognition, language and beyond, 366-379", "doi": "10.1075/z.217.11moh"},
+    {"key": "nickelsburg2004", "authors": "Nickelsburg, G. W. E., & VanderKam, J. C.", "year": 2004, "title": "1 Enoch: A New Translation Based on the Hermeneia Commentary", "venue": "Minneapolis: Fortress Press", "doi": null},
+    {"key": "pearce2016", "authors": "Pearce, M. T., Zaidel, D. W., Vartanian, O., Skov, M., Leder, H., Chatterjee, A., & Nadal, M.", "year": 2016, "title": "Neuroaesthetics: The Cognitive Neuroscience of Aesthetic Experience", "venue": "Perspectives on Psychological Science, 11(2), 265-279", "doi": "10.1177/1745691615621274"},
+    {"key": "charles1912", "authors": "Charles, R. H.", "year": 1912, "title": "The Book of Enoch, or 1 Enoch", "venue": "Oxford: Clarendon Press", "doi": null}
+  ]
+}
